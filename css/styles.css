@@ -24,7 +24,7 @@
       width: 41%;
       margin: 19px auto; /*to make the element in centre*/
    border: 2px solid white;
-   border-radius: 26px;
+   border-radius: 46px;
   }
 
   .right{
@@ -93,7 +93,7 @@
     border: 2px solid black;
     margin: 15px auto;
     font-size: 16px;
-    border-radius: 8px;
+    border-radius: 29px;
     }
 
     .container h1 {
