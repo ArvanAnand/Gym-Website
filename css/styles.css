@@ -24,6 +24,7 @@
       width: 41%;
       margin: 19px auto; /*to make the element in centre*/
    border: 2px solid white;
+   border-radius: 26px;
   }
 
   .right{
@@ -58,16 +59,21 @@
     font-family: 'Baloo Bhai 2', cursive;
       margin: 0px 9px;
       background-color: #35272400;
-      color: white;
+      color: rgb(0, 0, 0);
       padding: 4px 14px;
-      border: 2px solid white;
-      border-radius: 8px;
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 29px;
       font-size: 15px;
       cursor: pointer;
+      background: linear-gradient(to right, #f1f1f1 0%, #f8b3b5 50%, #ffffff 50%, #ffffff 100%);
+      background-size: 200% 100%;
+      background-position: 100% 0;
+      transition: background-position 0.3s;
   }
   .btn:hover{
       text-decoration: underline;
-      color: gray;  
+      color: gray; 
+      background-position:0 0; 
   }
 
   .container {
@@ -96,6 +102,6 @@
 
     .container button {
         display: block;
-        width: 74%;
+        width: 40%;
         margin: 20px auto;
     }
